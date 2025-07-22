@@ -1,7 +1,12 @@
 # playlist-generator
-automaticaly generate .m3u files for my music 
+## automaticaly generate .m3u files for my music 
 
-make it executable
+### Accepted formats
+
+	.mp3 .wma .aac
+
+
+### make it executable
 ```
 chmod +x generate_pl.sh
 ```
