@@ -24,7 +24,7 @@ echo $playlist_path
 # iterate and creates playlist file
 for f in "$folder"/*.{mp3,wma,aac}; do
   if [ -f "$f" ]; then
-    echo "$f" >> "$playlist_path"
+    echo $(basename -- "$f") >> "$playlist_path"
   fi
 done
 
